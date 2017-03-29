@@ -5,9 +5,9 @@ let securityQuestions = [
 {question: "What was the brand of your first car?", expectedAnswer: "bmw"}
 ];
 
-for(var i = 0; i < securityQuestions.length; i++){
-	var answer = prompt(securityQuestions[i].question);
-	var answerLower = answer.toLowerCase();
+for(let i = 0; i < securityQuestions.length; i++){
+	let answer = prompt(securityQuestions[i].question);
+	let answerLower = answer.toLowerCase();
 	if(answerLower === securityQuestions[i].expectedAnswer){
 	}
 	else{
